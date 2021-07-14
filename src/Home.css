@@ -1,0 +1,25 @@
+.home{
+	max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home__image{
+	width: 100%;
+	object-fit: contain;
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	margin-bottom: -150px;
+	z-index: -1;
+}
+
+.home__firstRow{
+	display: flex;
+	align-items: space-between;
+}
+.home__secondRow{
+	display: flex;
+	align-items: space-between;
+}
+.home__thirdRow{
+	display: flex;
+	align-items: space-between;
+}
