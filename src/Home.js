@@ -56,7 +56,7 @@ function Home(){
 				<Product 
 					id='12346'
 					title="HP 15 (2021) Thin &amp; Light Ryzen 3-3250 Laptop, 8 GB RAM, 1TB HDD + 256GB SSD, 15.6&quot; (39.2 cms) FHD Screen, Windows 10, MS Office (15s-gr0012AU)Click to open expanded view"
-					price = {41,999}
+					price = {41999}
 					rating = {4}
 					image="https://images-eu.ssl-images-amazon.com/images/I/41mQtYQUzmL._SY300_SX300_QL70_FMwebp_.jpg"
 				/>
