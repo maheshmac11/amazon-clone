@@ -13,9 +13,11 @@ const reducer = (state, action) => {
 				...state, 
 				basket: [...state.basket, action.item]
 			};
-		//Logic for adding item to basket
-				// ...state,
-				// dispatch([...state.basket, action.type])
+		case "SET_USER": 
+			return{
+				...state,
+				user: action.user
+			}
 		case "REMOVE_FROM_BASKET": 
 		//logic for removing from basket
 			//we cloned the basket
